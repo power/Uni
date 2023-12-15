@@ -1,0 +1,20 @@
+<div class="panel panel1">
+	<img class="miniCover" src="images/4YEO.jpg">
+	<div class="album_info">
+		<h5>Track List</h5>
+		<ul class="albumInfo">
+			<li>Track #1</li>
+			<li>Track #1</li>
+			<li>Track #1</li>
+			<li>Track #1</li>
+			<li>Track #1</li>
+			<li>Track #1</li>
+			<li>Track #1</li>
+			<li>Track #1</li>
+			<li>Track #1</li>
+			<li>Track #1</li>
+		</ul>
+
+
+	<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+</div>

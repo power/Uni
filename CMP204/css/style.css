@@ -1,0 +1,324 @@
+table {
+  border-collapse: collapse;
+  padding: 25px;
+  font-size: 1em;
+  font-family: sans-serif;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+.reqCol{
+width:30%;
+}
+
+.metCol{
+width:60%;
+}
+
+.fileCol{
+width:10%;
+}
+
+
+td { 
+  padding: 5px;
+}
+
+thead tr {
+  background-color: #2864be;
+  color: #ffffff;
+  text-align: left;
+}
+
+table th,
+table td {
+    padding: 12px 15px;
+}
+
+ tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+table tbody tr:nth-of-type(even) {
+    background-color: #c9b3c8;
+}
+
+.center
+{
+    padding: 12px;
+    height: 256px;
+    width: 256px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    color: #d3c3d2;
+    font-size: 32px;
+}
+
+h4 {
+    color: #c9b3c8;
+}
+p {
+    color: #c9b3c8;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.navbar {
+    background-color: #6f3857;
+    font-family: Tahoma;
+}
+
+
+.navbar-dark .navbar-brand {
+    color: #e7d1dd;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    color: #dcbacd;
+}
+
+.navbar-dark .navbar-nav .show > .nav-link {
+    color: #e7d1dd;
+}
+
+.dropdown-menu {
+    background: #dcbacd;
+}
+.dropdown-item, .dropdown-item:hover{
+    color: #a1517f;
+}
+
+body {
+    background-color: #8B628A;
+    font-family: Tahoma;
+}
+
+.registration, .login, .details, .deleteAccount, .updatePassword{
+    box-shadow: 0 0 5px rgba(0,0,0, 0.1);
+    padding: 5px;
+    align-items: center;
+    font-weight: 100;
+    margin: 0 auto;
+    width: 250px;
+
+}
+
+.registration form, .login form, .details form, .deleteAccount form, .updatePassword form{
+    margin: auto;
+    width: 250px;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+.registration form input[type="text"], input[type="password"]{
+    background-color: #a480a2;
+    border: 1px solid #987096;
+}
+
+.registration form input[type="submit"] {
+    margin: 10px auto;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    width: 200px;
+    padding: 10px;
+    color: #c9b3c8;
+    overflow: auto;
+    background-color: #987096;
+    border: 0px hidden;
+
+}
+
+.registration form input[type="submit"]:hover{
+    background-color: #c9b3c8;
+    color: #a480a2;
+    transition: background-color 0.2s;
+}
+
+.login form input[type="text"], input[type="password"]{
+    background-color: #a480a2;
+    border: 1px solid #987096;
+}
+
+.login form input[type="submit"] {
+    margin: 10px auto;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    width: 200px;
+    padding: 10px;
+    color: #c9b3c8;
+    overflow: auto;
+    background-color: #987096;
+    border: 0px hidden;
+}
+
+.login form input[type="submit"]:hover{
+    background-color: #c9b3c8;
+    color: #a480a2;
+    transition: background-color 0.2s;
+}
+
+/*
+.updatePasswords form input[type="text"], input[type="password"]{
+    background-color: #8C867A;
+}
+
+.updatePasswords form input[type="submit"] {
+    margin: 10px auto;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    width: 200px;
+    padding: 10px;
+    color: #B4A3CF;
+    overflow: auto;
+    background-color: #8B628A;
+}
+
+.updatePasswords form input[type="submit"]:hover{
+    background-color: #B4A3CF;
+    color: grey;
+    transition: background-color 0.2s;
+}
+
+.deleteAccounts form input[type="text"], input[type="password"]{
+    background-color: #8C867A;
+}
+
+.deleteAccounts form input[type="submit"] {
+    margin: 10px auto;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    width: 200px;
+    padding: 10px;
+    color: #B4A3CF;
+    overflow: auto;
+    background-color: #8B628A;
+}
+
+.deleteAccounts form input[type="submit"]:hover{
+    background-color: #B4A3CF;
+    color: grey;
+    transition: background-color 0.2s;
+}
+    */
+#open_preferences_center {
+    color: black;
+    padding: 20px;
+}
+
+/*### Discography ###*/
+
+.albums{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px
+}
+
+.album {
+    box-shadow: 0 0 5px rgba(0,0,0, 0.1);
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    grid-gap: 10px;
+    align-items: center;
+    color: #AB9F77;
+    font-weight: 100;
+}
+
+.artwork{
+    width: 100%;
+}
+
+h5 {
+    text-align: center;
+    font-size: 14px;
+    color: #c9b3c8;
+}
+
+.albumInfo{
+    display: inline-block;
+    text-align: right;
+    font-size: 10px;
+    color: grey;
+}
+
+
+.panel {
+    position: fixed;
+    z-index: 1;
+    display: inline-block;
+    background: black;
+    min-height: 100px;
+    height: 100px;
+    box-shadow: 0 2px 6px #000;
+    margin: 10px;
+    padding: 10px;
+    color: grey;
+}
+
+.panel1 {
+    position: fixed;
+    z-index: 1;
+    min-width: 100px;
+    width: 512px;
+    height: 512px;
+    margin-bottom: 0;
+    box-shadow: 0;
+}
+
+.miniCover{
+    float: left;
+    width: 256px;
+    height: 256px;
+}
+
+
+/* ### User Profile ### */
+
+.uParagraph{
+    text-align: center;
+    font-size: 12px;
+}
+
+.details form input[type="text"] {
+    background-color: #a480a2;
+    border: 1px solid #987096;
+}
+
+.details form input[type="submit"] {
+    margin: 10px auto;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    width: 200px;
+    padding: 10px;
+    color: #c9b3c8;
+    overflow: auto;
+    background-color: #987096;
+    border: 0px hidden;
+}
+
+.details form input[type="submit"]:hover{
+    background-color: #c9b3c8;
+    color: #a480a2;
+    transition: background-color 0.2s;
+}
+
+h6{
+    color:#d3c3d2; 
+    text-align: center;
+    font-size: 14px;
+}
+
+h7 {
+    color: #d3c3d2;
+    text-align: right;
+    font-size: 16px;
+}
