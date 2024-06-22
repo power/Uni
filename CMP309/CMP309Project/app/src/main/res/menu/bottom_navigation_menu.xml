@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/navhome"
+        android:title="Home"/>
+
+    <item
+        android:id="@+id/addentry"
+        android:title="Add an entry" />
+
+    <item
+        android:id="@+id/delentry"
+        android:title="Delete an entry" />
+
+</menu>
