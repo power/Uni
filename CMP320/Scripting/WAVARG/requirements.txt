@@ -1,0 +1,7 @@
+python-docx
+python-nmap
+pydirbuster
+bs4
+selenium
+webdriver_manager
+wfuzz
