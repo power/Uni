@@ -1,0 +1,13 @@
+http://cve.mitre.org/cgi-bin/cvename.cgi?name=2001-0260]
+http://cve.mitre.org/cgi-bin/cvename.cgi?name=2002-1090]
+http://cve.mitre.org/cgi-bin/cvename.cgi?name=2005-0560][Xref
+http://cve.mitre.org/cgi-bin/cvename.cgi?name=2013-2028]
+http://cve.mitre.org/cgi-bin/cvename.cgi?name=2014-6345]
+http://cve.mitre.org/cgi-bin/cvename.cgi?name=2015-1729]
+http://patriciopalladino.com/blog/2012/08/09/non-alphanumeric-javascript.html]
+http://technet.microsoft.com/en-us/security/bulletin/MS14-065][Xref
+http://technet.microsoft.com/en-us/security/bulletin/MS15-065][Xref
+http://tools.ietf.org/html/rfc990]
+http://www.microsoft.com/smallbusiness/resources/technology/security/practice_safe_computing_and_thwart_online_thugs.mspx]
+http://www.microsoft.com/technet/security/bulletin/ms05-021.mspx][Xref
+http://www.virustotal.com/en/file/a064a1d3d8b9d8ab649686b7fb01e0631e569412388084f5c391722c98660763/analysis/]

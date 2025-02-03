@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<head>
+    <title>System Information</title>
+</head>
+
+<body>
+    <h1>System Information</h1>
+    <div id="table"></div>
+
+</body>
+
+<script>
+    async function fetchMessages() { //async so we can make it repeat 
+            console.log("Fetching file")
+            const response = await fetch('usage.json'); // fetch the data
+            const message = await response.json(); // convert it to javascript json
+            //console.log(message);
+            Object.values(message).forEach(messages => { // must be parsed as an object otherwise javascript cries 
+                    const tableHTML = `
+                        <table>
+                            <tr>
+                                <td>Timetstamp:</td>
+                                <td>${message.timestamp.Timestamp}</td>
+                            </tr>
+                            <tr>
+                                <td>Hostname:</td>
+                                <td>${message.hostname.Hostname}</td>
+                            </tr>
+                            <tr>
+                                <td>Architecture:</td>
+                                <td>${message.architecture.Architecture}</td>
+                            </tr>
+                            <tr>
+                                <td>Total Memory:</td>
+                                <td>${message.RAM.Total}</td>
+                            </tr>
+                            <tr>
+                                <td>Memory Available:</td>
+                                <td>${message.RAM.Available}</td>
+                            </tr>
+                            <tr>
+                                <td>Percentage of Memory Being Used:</td>
+                                <td>${message.RAM.Percent}%</td>
+                            </tr>
+                            <tr>
+                                <td>Total Disk Space:</td>
+                                <td>${message.disk.Total}</td>
+                            </tr>
+                            <tr>
+                                <td>Percentage of Disk Being Used:</td>
+                                <td>${message.disk.Percent}%</td>
+                            </tr>
+                            <tr>
+                                <td>Bytes Sent:</td>
+                                <td>${message.network.traffic_sent}</td>
+                            </tr>
+                            <tr>
+                                <td>Bytes Received:</td>
+                                <td>${message.network.traffic_recv}</td>
+                            </tr>
+                        </table>
+                    `;
+                    console.log ("File fetched")
+                    document.getElementById('table').innerHTML = tableHTML;
+                });
+            };
+
+    setInterval(fetchMessages, 1000); // wait a second before updaitng the file
+    window.onload = fetchMessages(); // when we load the page, do this
+    </script>
+    
+</body>
+</html>
